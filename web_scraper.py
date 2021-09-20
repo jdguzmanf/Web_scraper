@@ -40,6 +40,7 @@ stock_names = ["ecopetrol", "cemargos", "pfcemargos"]
 
 
 
+
 while(True):
     for name in stock_names:
         chains = []
@@ -98,4 +99,17 @@ while(True):
 
     ## The program runs automatically every 15 minutes 
     time.sleep(900)
+
+
+
+#################################################################################################################################################################
+#  You could automate this code by simply creating a .bat file.
+#  You just have to create a txt file like this and save it as .bat
+
+#  .bat file
+#  "Python directory" "directory of the program, in this case, web_scraper.py file"
+#  pause
+
+#  Then you just have to run the bat program and that it.
+#################################################################################################################################################################
 
